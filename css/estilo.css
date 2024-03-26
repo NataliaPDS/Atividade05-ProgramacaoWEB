@@ -1,0 +1,90 @@
+body{
+    background-color: azure;
+}
+#todo{
+    background-color: white;
+    width: 50%;
+    height: auto;
+    display: flex;
+   
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+   
+    border-radius: 15px;
+}
+#botao button{
+    background-color: black;
+    border: none;
+   color: white;
+   border-radius: 5%;
+
+   width: 30%;
+   height: 70%;
+   margin-top: 20px;
+   margin-left: 350px;
+   
+
+}
+#botao button:hover{
+    background-color: rgb(56, 56, 230);
+    border: none;
+   color: black;
+   border-radius: 5%;
+
+   width: 30%;
+   height: 35%;
+}
+#direito{
+    background-color: white;
+    width: 50%;
+    height: auto;
+    padding-bottom: 200px;
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+ 
+   margin-left: 100px;
+   
+ 
+    
+}
+#esquerdo{
+    background-image: url('../img/bg-sidebar-desktop.svg');
+ 
+    width: 20%;
+    height: auto;
+    
+    padding-left: 20px;
+    padding-right: 10px;
+
+    border-radius: 20px;
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+   
+}
+.preto{
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+}
+.branco{
+    color:white;
+}
+.cinzaclaro{
+    color: grey;
+}
+input{
+    border-radius: 5px;
+    width: 50%;
+    height: 5%;
+    padding-right: 20%;
+    padding-top: 10px;
+   
+}
